@@ -7,14 +7,20 @@
 
   /// Creating a user profile
   /// 1 - String
+    // Defined as String, anyother data types are not acceptable
 
-  String userName = "Salim Sheikh"; // Defined as String, anyother data types are not acceptable
+  String userName = "Salim Sheikh";
   String userAddress = "7/19 Nibir House, Jinnah Para, Mymensingh";
+  String userNid= "6665558884";
   String userProfession = "Software Engineer";
   String userWorkingPlace = "XYZ IT Farm";
   String userDesignation = "Senior"+" "+userProfession +" "+ userName;
 
+  /// 2 - boolean
+    // Defined as boolean, anyother data types are not acceptable
 
+  bool isUserMale = true;
+  bool isUserBangladeshi = true;
   ///2 - integer
 
 
@@ -34,11 +40,17 @@
   print(isMeMale);
   print(isMeFemale);
    */
+  // printing the String section
   print(userName);
   print(userAddress);
+  print(userNid);
   print(userProfession);
   print(userWorkingPlace);
   print(userDesignation);
+
+  // printing the boolean section
+  print(isUserMale);
+  print(isUserBangladeshi);
 
     ///4 - Dart List & List Properties
 
