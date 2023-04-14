@@ -86,17 +86,26 @@ main() {
 
 
     // Map defined with data types, anyother data types are not acceptable
-    Map<String, double> theEmployees = {
-      "Lil" : 2023.01,
-      "Luis" : 2023.02,
-      "Nandal" : 2023.02,
-      "David" : 2023.02,
-      "Isaj" : 2023.02,
+    Map<String, double> topCustomers = {
+      "Lil" : 2021.01,
+      "Luis" : 2022.01,
+      "Nandal" : 2022.02,
+      "David" : 2022.03,
+      "Isaj" : 2023.01,
     };
-    print(theEmployees);
-    print(theEmployees["Luis"]);
+    print(topCustomers);
+    print(topCustomers["Luis"]);
 
 
+  Map<String, dynamic> studentsRandomInfo = {
+    "Harry" : "Favourite Teacher- Albus Dumbledore",
+    "Ron's Siblings" : 6,
+    "Hermione" : 1909.1979,
+    'Neville is Pure Blood' : true,
+    "Ginny" : "Ron's Sister",
+  };
+  print(studentsRandomInfo);
+  print(studentsRandomInfo['Neville is Pure Blood']);
 
   }
 
