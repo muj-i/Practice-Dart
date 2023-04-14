@@ -9,9 +9,9 @@
   /// 1 - String
 
   String userName = "Salim Sheikh"; // Defined as String, anyother data types are not acceptable
-  String userAddress = "7/19 Nibir House, Jinnah Para, Mymensingh";
+  //String userAddress = "7/19 Nibir House, Jinnah Para, Mymensingh";
   String userProfession = "Software Engineer";
-  String userWorkingPlace = "XYZ IT Farm";
+  //String userWorkingPlace = "XYZ IT Farm";
   String userDesignation = "Senior"+" "+userProfession +" "+ userName;
 
 
