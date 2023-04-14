@@ -1,12 +1,13 @@
 
   //Starting with the function is responsible for all kinds of execution.
-  main() {
+
+main() {
   /// Live Class 2
   /// Primitive data types = integer, String, double, boolean
   /// from here the variable name will be retable to the program and human readable
 
   /// Creating a user profile
-  /// 1 - String
+  ///1 - String
     // Defined as String, anyother data types are not acceptable
 
   String userName = "Salim Sheikh";
@@ -16,32 +17,41 @@
   String userWorkingPlace = "XYZ IT Farm";
   String userDesignation = "Senior"+" "+userProfession +" "+ userName;
 
-  /// 2 - boolean
+  ///2 - boolean
     // Defined as boolean, anyother data types are not acceptable
 
   bool isUserMale = true;
   bool isUserBangladeshi = true;
-  ///2 - integer
+  ///3 - integer
+    // Defined as integer, anyother data types are not acceptable
 
+  int userAge = 37;
 
+  ///4 - double
+    // Defined as double, anyother data types are not acceptable
 
-  ///2 - String & Boolean
+  double userBalance = 4891456.2541;
 
-    /*
-  var myName = "It's Muj";
-  var myBname = 'Taw';
+  ///5 - List
+  // List is defined as String, anyother data types are not acceptable
 
-  print(myName);
-  print(myBname);
+  List<String> userPhoneNum = [
+        '+8801998494144',
+        '+8801884948946',
+        '+8801737345343',
+        '+8801523535344',
+        '+8801373725737',
+        '+8801667367777',
+        '+8801434734345',
+  ];
 
-  var isMeMale = true;
-  var isMeFemale = false;
-
-  print(isMeMale);
-  print(isMeFemale);
-   */
   // printing the String section
   print(userName);
+
+  // printing the integer section
+  print(userAge);
+
+  // printing the String section
   print(userAddress);
   print(userNid);
   print(userProfession);
@@ -52,117 +62,41 @@
   print(isUserMale);
   print(isUserBangladeshi);
 
-    ///4 - Dart List & List Properties
+  // printing the double section
+  print(userBalance);
 
-/*
-  var bdDiv =
-  [
-    'Dhaka',
-    'Khulna',
-    'Barisal',
-    'Chittagong',
-    'Mymensingh',
-    'Rajshahi',
-    'Sylhet',
-    'Rangpur'
-  ];
- // var res = bdDiv.length;
-  //var res = bdDiv.last;
-  //var res = bdDiv.;
+  // printing the list section
+  print(userPhoneNum);
+  // printing from list selected list item
+  print(userPhoneNum[3]);
 
 
-
-  //print(bdDiv);
- // print(bdDiv[1]);
-  //print('${bdDiv[1]} and ${bdDiv[2]}');
-  //print(res);
-*/
-    ///5 - Dart Map
-/*
-  var wCouCap =
-  {
-    'Bandladesh' : 'Dhaka',
-    'India' : 'Delhi',
-    'Japan' : 'Tokyo'
-  };
-
-  print(wCouCap);
-  print(wCouCap['Japan']);
-
- */
-
-    ///6 - Dart Unary Operators
-    /*
-  var x = 50;
-  print(x++);
-  print(x++);
-  print(x++);
-  print(x++);
-  print(x++);
+  /// Creating a employee Map
+    // Map not defined any data type
+    Map topEmployees = {
+      101 : "John",
+      102 : "Steave",
+      103 : "Navoul",
+      104 : "Bill",
+      105 : "Arun",
+      105 : "Tim", // two of keys in the Map is same, so last one will always overlap the previous one
+    };
+    print(topEmployees);
+    print(topEmployees[104]); // printing from Map selected list item
 
 
-  var xy = 50;
-  print(++xy);
-  print(++xy);
-  print(++xy);
-  print(++xy);
-  print(++xy);
-
-
-  var y = 300;
-  print(y++);
-  print(y++);
-  print(++y);
-  print(--y);
-  print(y--);
-
-
-  ///7 - Dart Constant
-
-  final w = 50000;
-  const e = 1700;
-
-  print(w-e*e/w);
-
-   */
-
-    ///8 - Dart Fixed Length List & Growable List
-    /*
-  var city=[
-    'Dhaka',
-    'Khulna',
-    'Barisal',
-  ];
-
-  print(city);
-
-  city.add('nepal');
-
-  print(city);
-
-  const cityy=[
-    'Dhaka',
-    'Khulna',
-    'Barisal',
-  ];
-
-  print(cityy);
-
-*/
-    ///9 - List insert
-
-    var num=[1, 2, 3,];
-
-    num[0]=600;
-
-    num.insert(2,10);
-    num.insertAll(2,[50000,520]);
-    num.removeAt(2);
-
-
-
-    print(num);
+    // Map defined with data types, anyother data types are not acceptable
+    Map<String, double> theEmployees = {
+      "Lil" : 2023.01,
+      "Luis" : 2023.02,
+      "Nandal" : 2023.02,
+      "David" : 2023.02,
+      "Isaj" : 2023.02,
+    };
+    print(theEmployees);
+    print(theEmployees["Luis"]);
 
 
 
   }
+
