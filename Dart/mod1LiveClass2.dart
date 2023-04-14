@@ -94,18 +94,24 @@ main() {
       "Isaj" : 2023.01,
     };
     print(topCustomers);
-    print(topCustomers["Luis"]);
+    print(topCustomers["Luis"]); // printing from Map selected list item
 
-
+    // Map is defined the first data types as String, so anyother data types are not acceptable for the first key
+    // Map is defined the second data types as dynamic, so there could be any data types in the second key - String, bool, int, double
   Map<String, dynamic> studentsRandomInfo = {
-    "Harry" : "Favourite Teacher- Albus Dumbledore",
+    "Harry's Favourite Teacher" : "Albus Dumbledore",
     "Ron's Siblings" : 6,
-    "Hermione" : 1909.1979,
-    'Neville is Pure Blood' : true,
-    "Ginny" : "Ron's Sister",
+    "Hermione's Birthday" : 1909.1979,
+    "Neville is Pure Blood" : true,
+    "Ginny is" : "Ron's Sister",
   };
   print(studentsRandomInfo);
-  print(studentsRandomInfo['Neville is Pure Blood']);
+  print(studentsRandomInfo["Neville is Pure Blood"]); // printing from Map selected list item
+
+
+
+
+
 
   }
 
