@@ -3,7 +3,7 @@ void main(){
 
 ///4 - Dart List & List Properties
 
-/*
+
   var bdDiv =
   [
     'Dhaka',
@@ -15,8 +15,8 @@ void main(){
     'Sylhet',
     'Rangpur'
   ];
- // var res = bdDiv.length;
-  //var res = bdDiv.last;
+ var res = bdDiv.length;
+ // var res = bdDiv.last;
   //var res = bdDiv.;
 
 
@@ -25,7 +25,7 @@ void main(){
  // print(bdDiv[1]);
   //print('${bdDiv[1]} and ${bdDiv[2]}');
   //print(res);
-*/
+
 ///5 - Dart Map
 /*
   var wCouCap =
@@ -41,7 +41,7 @@ void main(){
  */
 
 ///6 - Dart Unary Operators
-/*
+
   var x = 50;
   print(x++);
   print(x++);
@@ -73,10 +73,10 @@ void main(){
 
   print(w-e*e/w);
 
-   */
+
 
 ///8 - Dart Fixed Length List & Growable List
-/*
+
   var city=[
     'Dhaka',
     'Khulna',
@@ -97,7 +97,7 @@ void main(){
 
   print(cityy);
 
-*/
+
 ///9 - List insert
 
 var num=[1, 2, 3,];
