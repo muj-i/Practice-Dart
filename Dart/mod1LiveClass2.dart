@@ -1,5 +1,4 @@
-
-  //Starting with the function is responsible for all kinds of execution.
+//Starting with the main function which is responsible for all kinds of execution.
 
 main() {
   /// Live Class 2
