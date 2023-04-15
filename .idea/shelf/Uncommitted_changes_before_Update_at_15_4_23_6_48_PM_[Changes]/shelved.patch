@@ -1,0 +1,325 @@
+Index: Dart/mod1LiveClass1.dart
+===================================================================
+diff --git a/Dart/mod1LiveClass1.dart b/Dart/mod1LiveClass1.dart
+deleted file mode 100644
+--- a/Dart/mod1LiveClass1.dart	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
++++ /dev/null	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
+@@ -1,58 +0,0 @@
+-///Live Class 1
+-///0 - comments section
+-// two forwardslash is for commenting or explain something or skipping any line in code & this only works in one line
+-// (/* - */) this method is for skipping a bunch of lines. EXAMPLE -
+-/*
+-   print('Hello World');
+-  print("Hello Dart");
+-  print('''Hello Flutter''');
+-    */
+-//Starting with the main function which is responsible for all kinds of execution.
+-main() {
+-  ///1 - Print Hello World
+-
+-  print('Hello World'); //using one quotation mark
+-  print("Hello Dart"); //using two quotation mark
+-  print('''Hello Flutter'''); //using three quotation mark
+-
+-  ///2 - Line breaking, quotation mark & use of apostrophe
+-
+-  print(
+-      'Rahim\'s \nPen'); //using one quotation mark, backslash apostrophe (\') for apostrophe & backslash n (\n) for line break
+-  print(
+-      "Karim's \nPencil"); //using two quotation mark which is acceptable to use BASIC APOSTROPHE & backslash n (\n) for line break
+-  print('''Rumi's
+-     "Mobile"'''); //using three quotation mark which is also acceptable to use BASIC APOSTROPHE & we can use the BASIC SPACE & RETURN key to perform space & line break
+-
+-  ///3 - Variable & Arithmetic Operators
+-  // Variables are case sensitive
+-  // Special characters such as @, &, ^, *, # are prohibited to use. The use of  underscore(_) and the dollar sign($) is acceptable in certain scenarios
+-
+-  var x = 20; //holding 20 in the variable name x
+-  print(x); //printing the variable x
+-
+-  var y = 5; //holding 5 in the variable name y
+-  print(y); //printing the variable y
+-
+-  y = 10; //update 10 in the variable name y
+-  print(y); //printing the variable y after updating the value
+-
+-  var z = x + y; //holding the addition of var x & var y in the variable name z
+-  print(z); //printing the variable z
+-
+-  var p = x *
+-      z; //holding the multiplication of var x & var z in the variable name p
+-  print(p); //printing the variable p
+-
+-  var q = p / 20; //holding the division of var p & 20 in the variable name q
+-  print(q); //printing the variable q
+-
+-  var r = 20 % 3; //holding the modulo of 20 & 3 in the variable name r
+-  print(r); //printing the variable r
+-
+-  print(x + y); //printing the addition of var x & var y
+-  print(x - y); //printing the subtraction of var x & var y
+-  print(x * y); //printing the multiplication of var x & var y
+-  print(x / y); //printing the division of var x & var y
+-  print(x % y); //printing the modulo of var x & var y
+-}
+\ No newline at end of file
+Index: Dart/mod1LiveClass2.dart
+===================================================================
+diff --git a/Dart/mod1LiveClass2.dart b/Dart/mod1LiveClass2.dart
+deleted file mode 100644
+--- a/Dart/mod1LiveClass2.dart	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
++++ /dev/null	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
+@@ -1,116 +0,0 @@
+-//Starting with the main function which is responsible for all kinds of execution.
+-
+-main() {
+-  /// Live Class 2
+-  /// Primitive data types = integer, String, double, boolean
+-  /// from here the variable name will be retable to the program and human readable
+-
+-  /// Creating a user profile
+-  ///1 - String
+-    // Defined as String, anyother data types are not acceptable
+-
+-  String userName = "Salim Sheikh";
+-  String userAddress = "7/19 Nibir House, Jinnah Para, Mymensingh";
+-  String userNid= "6665558884";
+-  String userProfession = "Software Engineer";
+-  String userWorkingPlace = "XYZ IT Farm";
+-  String userDesignation = "Senior"+" "+userProfession +" "+ userName;
+-
+-  ///2 - boolean
+-    // Defined as boolean, anyother data types are not acceptable
+-
+-  bool isUserMale = true;
+-  bool isUserBangladeshi = true;
+-  ///3 - integer
+-    // Defined as integer, anyother data types are not acceptable
+-
+-  int userAge = 37;
+-
+-  ///4 - double
+-    // Defined as double, anyother data types are not acceptable
+-
+-  double userBalance = 4891456.2541;
+-
+-  ///5 - List
+-  // List is defined as String, anyother data types are not acceptable
+-
+-  List<String> userPhoneNum = [
+-        '+8801998494144',
+-        '+8801884948946',
+-        '+8801737345343',
+-        '+8801523535344',
+-        '+8801373725737',
+-        '+8801667367777',
+-        '+8801434734345',
+-  ];
+-
+-  // printing the String section
+-  print(userName);
+-
+-  // printing the integer section
+-  print(userAge);
+-
+-  // printing the String section
+-  print(userAddress);
+-  print(userNid);
+-  print(userProfession);
+-  print(userWorkingPlace);
+-  print(userDesignation);
+-
+-  // printing the boolean section
+-  print(isUserMale);
+-  print(isUserBangladeshi);
+-
+-  // printing the double section
+-  print(userBalance);
+-
+-  // printing the list section
+-  print(userPhoneNum);
+-  // printing from list selected list item
+-  print("Active Number:" + " " + userPhoneNum[3]);
+-
+-
+-  /// Creating a employee Map
+-    // Map not defined any data type
+-    Map topEmployees = {
+-      101 : "John",
+-      102 : "Steave",
+-      103 : "Navoul",
+-      104 : "Bill",
+-      105 : "Arun",
+-      105 : "Tim", // two of keys in the Map is same, so last one will always overlap the previous one
+-    };
+-    print(topEmployees);
+-    print(topEmployees[104]); // printing from Map selected list item
+-
+-
+-    // Map defined with data types, anyother data types are not acceptable
+-    Map<String, double> topCustomers = {
+-      "Lil" : 2021.01,
+-      "Luis" : 2022.01,
+-      "Nandal" : 2022.02,
+-      "David" : 2022.03,
+-      "Isaj" : 2023.01,
+-    };
+-    print(topCustomers);
+-    print(topCustomers["Luis"]); // printing from Map selected list item
+-
+-    // Map is defined the first data types as String, so anyother data types are not acceptable for the first key
+-    // Map is defined the second data types as dynamic, so there could be any data types in the second key - String, bool, int, double
+-  Map<String, dynamic> studentsRandomInfo = {
+-    "Harry's Favourite Teacher" : "Albus Dumbledore",
+-    "Ron's Siblings" : 6,
+-    "Hermione's Birthday" : 1909.1979,
+-    "Neville is Pure Blood" : true,
+-    "Ginny is" : "Ron's Sister",
+-  };
+-  print(studentsRandomInfo);
+-  print(studentsRandomInfo["Neville is Pure Blood"]); // printing from Map selected list item
+-
+-
+-
+-
+-
+-
+-  }
+-
+Index: Assignments/mod1assignment1.dart
+===================================================================
+diff --git a/Assignments/mod1assignment1.dart b/Assignments/mod1assignment1.dart
+deleted file mode 100644
+--- a/Assignments/mod1assignment1.dart	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
++++ /dev/null	(revision 0dfea43becf1e1baee5e7ff572fc849f309ff9a9)
+@@ -1,43 +0,0 @@
+-//Starting with the main function which is responsible for all kinds of execution.
+-
+-main() {
+-
+-  // List is defined as String.
+-
+-  List<String> phoneNumbers = [
+-    "+88",
+-    "01768131685",
+-    "01768171985",
+-    "01768111286",
+-    "01768131685"
+-  ];
+-
+-  //holding the first list item "+88" in the String named countryCode
+-
+-  String countryCode = phoneNumbers[0];
+-
+-  //listing all the number with the country code and holding them in a String named numberWithCode
+-  //at first the String named countryCode
+-  //then a line break
+-  //then add the numbers by selecting each (ex:phoneNumbers[1]) from the phoneNumbers list
+-
+-  List<String> numberWithCode= [
+-    countryCode +""+ phoneNumbers[1],
+-    countryCode +""+ phoneNumbers[2],
+-    countryCode +""+ phoneNumbers[3],
+-    countryCode +""+ phoneNumbers[4],
+-  ];
+-
+-  //for printing each number in a separate line
+-  //holding the String numberWithCode in the String named numberWithCodeLineBreak
+-  //then added line breaks using the .join
+-
+-  String numberWithCodeLineBreak = numberWithCode.join('\n');
+-
+-  //printing the full number with a title named Full Numbers
+-  //then a line break
+-  //then the String named numberWithCodeLineBreak
+-
+-  print("Full Numbers" +'\n'+ numberWithCodeLineBreak);
+-
+-}
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1681562723217)
++++ b/.idea/vcs.xml	(date 1681562723217)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1681469813841)
++++ b/.idea/.gitignore	(date 1681469813841)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/libraries/Dart_SDK.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Dart_SDK.xml b/.idea/libraries/Dart_SDK.xml
+new file mode 100644
+--- /dev/null	(date 1681469813834)
++++ b/.idea/libraries/Dart_SDK.xml	(date 1681469813834)
+@@ -0,0 +1,27 @@
++<component name="libraryTable">
++  <library name="Dart SDK">
++    <CLASSES>
++      <root url="file:///usr/local/opt/dart/libexec/lib/async" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/cli" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/collection" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/convert" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/core" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/developer" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/ffi" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/html" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/indexed_db" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/io" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/isolate" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/js" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/js_util" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/math" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/mirrors" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/svg" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/typed_data" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/web_audio" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/web_gl" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1681469813839)
++++ b/.idea/misc.xml	(date 1681469813839)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
