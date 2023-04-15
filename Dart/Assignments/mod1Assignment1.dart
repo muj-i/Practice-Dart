@@ -1,6 +1,6 @@
 //Starting with the main function which is responsible for all kinds of execution.
 
- main() {
+ void main() {
 
   // List is defined as String.
 
@@ -12,31 +12,30 @@
     "01768131685"
   ];
 
-  //holding the first list item "+88" in the String named countryCode
+  //holding the first list item "+88" in a String named "countryCode"
 
   String countryCode = phoneNumbers[0];
 
-  //listing all the number with the country code and holding them in a String named numberWithCode
-  //at first the String named countryCode
-  //then a line break
-  //then add the numbers by selecting each (ex:phoneNumbers[1]) from the phoneNumbers list
+  //listing all the number with the country code and holding them in a String named "numberWithCode"
+  //first write the string called "countryCode"
+  //then add the numbers by selecting each (ex:phoneNumbers[1]) from the "phoneNumbers" list
 
   List<String> numberWithCode= [
-    countryCode +""+ phoneNumbers[1],
-    countryCode +""+ phoneNumbers[2],
-    countryCode +""+ phoneNumbers[3],
-    countryCode +""+ phoneNumbers[4],
+    countryCode + phoneNumbers[1],
+    countryCode + phoneNumbers[2],
+    countryCode + phoneNumbers[3],
+    countryCode + phoneNumbers[4],
   ];
 
   //for printing each number in a separate line
-  //holding the String numberWithCode in the String named numberWithCodeLineBreak
-  //then added line breaks using the .join
+  //holding the String "numberWithCode" in the String named "numberWithCodeLineBreak"
+  //then added line breaks using the .join('\n)
 
   String numberWithCodeLineBreak = numberWithCode.join('\n');
 
   //printing the full number with a title named Full Numbers
-  //then a line break
-  //then the String named numberWithCodeLineBreak
+  //then a line break using '\n'
+  //then the String named "numberWithCodeLineBreak"
 
   print("Full Numbers" +'\n'+ numberWithCodeLineBreak);
 
