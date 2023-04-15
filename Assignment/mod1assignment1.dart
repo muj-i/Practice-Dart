@@ -33,7 +33,9 @@ main() {
 
   String numberWithCodeLineBreak = numberWithCode.join('\n');
 
-  //printing the full number with a title named Full Numbers, then a line break & then the String named numberWithCodeLineBreak
+  //printing the full number with a title named Full Numbers
+  //then a line break
+  //then the String named numberWithCodeLineBreak
 
   print("Full Numbers" +'\n'+ numberWithCodeLineBreak);
 
