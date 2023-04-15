@@ -4,7 +4,7 @@ main() {
 
   // List is defined as String.
 
-  List<String> PhoneNumbers = [
+  List<String> phoneNumbers = [
     "+88",
     "01768131685",
     "01768171985",
@@ -14,18 +14,18 @@ main() {
 
   //holding the first list item "+88" in the String named countryCode
 
-  String countryCode = PhoneNumbers[0];
+  String countryCode = phoneNumbers[0];
 
   //listing all the number with the country code
   //first the String named countryCode
   //then a line break
-  //then add the numbers by selecting each (ex:PhoneNumbers[1]) from the PhoneNumbers list
+  //then add the numbers by selecting each (ex:phoneNumbers[1]) from the phoneNumbers list
 
   List<String> numberWithCode= [
-    countryCode +""+ PhoneNumbers[1],
-    countryCode +""+ PhoneNumbers[2],
-    countryCode +""+ PhoneNumbers[3],
-    countryCode +""+ PhoneNumbers[4],
+    countryCode +""+ phoneNumbers[1],
+    countryCode +""+ phoneNumbers[2],
+    countryCode +""+ phoneNumbers[3],
+    countryCode +""+ phoneNumbers[4],
   ];
 
   //for printing each number in a separate line
