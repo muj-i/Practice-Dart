@@ -16,8 +16,8 @@ main() {
 
   String countryCode = phoneNumbers[0];
 
-  //listing all the number with the country code
-  //first the String named countryCode
+  //listing all the number with the country code and holding them in a String named numberWithCode
+  //at first the String named countryCode
   //then a line break
   //then add the numbers by selecting each (ex:phoneNumbers[1]) from the phoneNumbers list
 
@@ -29,7 +29,8 @@ main() {
   ];
 
   //for printing each number in a separate line
-  //holding the numberWithCode in the String named numberWithCodeLineBreak
+  //holding the String numberWithCode in the String named numberWithCodeLineBreak
+  //then added line breaks using the .join
 
   String numberWithCodeLineBreak = numberWithCode.join('\n');
 
