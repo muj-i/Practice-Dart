@@ -44,10 +44,14 @@ main() {
   value /= 2;
   print(value);
   print("");
-////////////////////////////////////
+
+  //////////////////////
   int x = 5;
   int y = 7;
   int z = 1;
+
+
+
 
   print(x == y); // Equal to
   print(x > y); // greater than
@@ -57,6 +61,8 @@ main() {
   print(x <= z); // less than or equal to
   print(x < y && x < z); // Logical and
   print(x < y || x < z); // logical or
+  print(x != z);
+
 
   const String passportNo = '4545Txxxx3e434';
   final int age;
