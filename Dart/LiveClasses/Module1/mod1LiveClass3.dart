@@ -46,37 +46,45 @@ main() {
   print("");
 
   //////////////////////
-  int x = 5;
-  int y = 7;
-  int z = 1;
+  int x = 55;
+  int y = 75;
+  int z = 15;
 
 
-
-
-  print(x == y); // Equal to
+  print(x == y); // equal to
   print(x > y); // greater than
   print(x < y); // less than
   print(x >= z); // greater than or equal to
-  print('');
   print(x <= z); // less than or equal to
-  print(x < y && x < z); // Logical and
+  print(x < y && x < z); // logical and
   print(x < y || x < z); // logical or
-  print(x != z);
+  print(x != z); // logical not
+  print('');
 
-
-  const String passportNo = '4545Txxxx3e434';
-  final int age;
-  age = 76;
+  //////////////const & final
+  const String passportNo = 'ABFRF5879'; // is not changable and have to hold a value
   print(passportNo);
 
-  /// Type casting
-  String myAge = '67';
-  int j = int.parse(myAge);
-  j += 1;
-  print(j);
-  myAge = j.toString();
-  double u = double.parse(myAge);
-  print(u);
+  final int deathAge = 75;  // is not changable and holding a value is optional but if it is declared once it will be not changable
+  print(deathAge);
 
+  final int age;
+  age = 77;
+  print(age);
+
+
+  /// Type casting
+  String myAge = '69';
+  int newAge = int.parse(myAge);
+  newAge += 1;
+  //print(newAge);
+  myAge = newAge.toString();
+  print(myAge);
+
+  double midAge = double.parse(myAge);
+  print(midAge);
+
+
+  /// List
 
 }
