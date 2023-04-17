@@ -33,10 +33,8 @@
 
   String numberWithCodeLineBreak = numberWithCode.join('\n');
 
-  //printing the full number with a title named Full Numbers
-  //then a line break using '\n'
-  //then the String named "numberWithCodeLineBreak"
+  //printing the String named "numberWithCodeLineBreak"
 
-  print("Full Numbers" +'\n'+ numberWithCodeLineBreak);
+  print(numberWithCodeLineBreak);
 
 }
