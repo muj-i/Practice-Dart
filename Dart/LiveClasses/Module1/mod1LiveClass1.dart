@@ -1,4 +1,4 @@
-///Live Class 1 m
+///Live Class 1
 ///0 - comments section
 // two forwardslash is for commenting or explain something or skipping any line in code & this only works in one line
 // (/* - */) this method is for skipping a bunch of lines. EXAMPLE -
