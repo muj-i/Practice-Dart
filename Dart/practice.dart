@@ -1,4 +1,25 @@
+import 'dart:io';
 void main() {
+
+  print('suns');
+  dynamic sunset = stdin.readLineSync();
+  print('sunr');
+  dynamic sunrise = stdin.readLineSync();
+  var addition = sunset + sunrise;
+  print(addition);
+
+
+    // Prompt the user to enter some input
+    //print('Enter your name:');
+
+    // Read the user's input from the console
+   // var name = stdin.readLineSync();
+
+    // Print out a message using the user's input
+   // print('Hello, $name!');
+
+
+
 
 /*
 ///4 - Dart List & List Properties
