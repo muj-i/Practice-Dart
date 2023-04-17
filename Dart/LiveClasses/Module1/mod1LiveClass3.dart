@@ -1,4 +1,4 @@
-
+import 'dart:io'; ///experimental
 main() {
   int a = 41;
   int b = 2;
@@ -96,31 +96,37 @@ main() {
     'Farl',
   ];
 
-  print('Length');
-  print(students.length);
+  stdout.write('Length: '); //experimental
+  stdout.write(students.length); //experimental
+  print(' ');
+ /// print('Length');
+ /// print(students.length);
 
-  /*
-  print('');
+  print(' ');
   print(students.first);
   print(students.last);
+  print(' ');
+/////////////////////// 1.30
   print(students[3]);
-  students.insert(0, '0 Maruf');
-  students.insertAll(0, ['0 Maruf', 'asfd']);
   students.add('Maruf');
-  print(students);
-  students.addAll([
+  students.insert(0, '0 Maruf');
+ // students.insertAll(0, ['0 Maruf', 'asfd']);
+  //students.add('Maruf');
+  //print(students);
+  /*students.addAll([
     'XYZ',
     'Tonmoy',
     'Tonmoy',
     'Tonmoy',
   ]);
-  print(students);
-  students.removeLast();
-  print(students);
-  students.remove('Tonmoy');
-  print(students);
-  students.removeAt(1);
-  print(students);
 
    */
+  //print(students);
+  //students.removeLast();
+  //print(students);
+  //students.remove('Tonmoy');
+  //print(students);
+  //students.removeAt(1);
+  //print(students);
+
 }
