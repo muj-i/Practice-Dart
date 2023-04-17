@@ -1,5 +1,6 @@
 //Starting with the main function which is responsible for all kinds of execution.
 
+
 main() {
   /// Live Class 2
   /// Primitive data types = integer, String, double, boolean
