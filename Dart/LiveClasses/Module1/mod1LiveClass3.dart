@@ -1,3 +1,4 @@
+
 main() {
   int a = 41;
   int b = 2;
@@ -45,7 +46,7 @@ main() {
   print(value);
   print("");
 
-  //////////////////////
+  ///
   int x = 55;
   int y = 75;
   int z = 15;
@@ -61,7 +62,7 @@ main() {
   print(x != z); // logical not
   print('');
 
-  //////////////const & final
+  /// const & final
   const String passportNo = 'ABFRF5879'; // is not changable and have to hold a value
   print(passportNo);
 
@@ -71,7 +72,7 @@ main() {
   final int age;
   age = 77;
   print(age);
-
+  print('');
 
   /// Type casting
   String myAge = '69';
@@ -83,8 +84,43 @@ main() {
 
   double midAge = double.parse(myAge);
   print(midAge);
-
-
+  print('');
+////////////////////////////////////
   /// List
+  List<String> students = [
+    'Lio',
+    'Alex',
+    'Albert',
+    'Jonas',
+    'Deuk',
+    'Farl',
+  ];
 
+  print('Length');
+  print(students.length);
+
+  /*
+  print('');
+  print(students.first);
+  print(students.last);
+  print(students[3]);
+  students.insert(0, '0 Maruf');
+  students.insertAll(0, ['0 Maruf', 'asfd']);
+  students.add('Maruf');
+  print(students);
+  students.addAll([
+    'XYZ',
+    'Tonmoy',
+    'Tonmoy',
+    'Tonmoy',
+  ]);
+  print(students);
+  students.removeLast();
+  print(students);
+  students.remove('Tonmoy');
+  print(students);
+  students.removeAt(1);
+  print(students);
+
+   */
 }
