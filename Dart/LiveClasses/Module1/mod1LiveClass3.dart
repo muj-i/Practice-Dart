@@ -12,7 +12,7 @@ double division = a / b;
 
   ///Dart Unary Operators
 
-  var x = 50;
+  /*var x = 50;
   print(x++);
   print(x++);
   print(x++);
@@ -28,11 +28,17 @@ double division = a / b;
   print(++xy);
 
 
-  var y = 300;
-  print(y++);
-  print(y++);
-  print(++y);
-  print(--y);
-  print(y--);
+   */
+
+
+  //print(--y);
+  int y = 300;
+   y++;
+   //y++;
+   print(y++);
+   //print(y);
+
+ print(++y);
+  //int(y--);
 
 }
