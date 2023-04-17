@@ -85,7 +85,9 @@ main() {
   double midAge = double.parse(myAge);
   print(midAge);
   print('');
+
 ////////////////////////////////////
+
   /// List
   List<String> students = [
     'Lio',
@@ -106,7 +108,7 @@ main() {
   print(students.first);
   print(students.last);
   print(' ');
-/////////////////////// 1.30
+
   print(students[3]);
   print(' ');
 
