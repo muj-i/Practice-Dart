@@ -108,25 +108,38 @@ main() {
   print(' ');
 /////////////////////// 1.30
   print(students[3]);
-  students.add('Maruf');
-  students.insert(0, '0 Maruf');
- // students.insertAll(0, ['0 Maruf', 'asfd']);
-  //students.add('Maruf');
-  //print(students);
-  /*students.addAll([
-    'XYZ',
-    'Tonmoy',
-    'Tonmoy',
-    'Tonmoy',
-  ]);
+  print(' ');
 
-   */
-  //print(students);
-  //students.removeLast();
-  //print(students);
-  //students.remove('Tonmoy');
-  //print(students);
-  //students.removeAt(1);
-  //print(students);
+  students.add('Joe');
+  print(students);
+  print(' ');
+
+  students.addAll([
+    'Hugh',
+    'Jeffry',
+    'Baiden',
+    'Jerry',
+  ]);
+  print(students);
+  print(' ');
+
+  students.insert(0,'Dog');
+  print(students);
+  print(' ');
+
+  students.insertAll(0,['Cow','Cat']);
+  print(students);
+  print(' ');
+
+  students.removeLast();
+  print(students);
+  print(' ');
+
+  students.remove('Jeffry');
+  print(students);
+  print(' ');
+
+  students.removeAt(1);
+  print(students);
 
 }
