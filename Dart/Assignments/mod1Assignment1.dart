@@ -33,7 +33,7 @@
 
   //for printing each number in a separate line
   //holding the String "numberWithCode" in the String named "numberWithCodeLineBreak"
-  //then added line breaks using the .join('\n)
+  //then added line breaks using the .join('\n')
 
   String numberWithCodeLineBreak = numberWithCode.join('\n');
 
