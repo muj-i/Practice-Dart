@@ -1,0 +1,158 @@
+Index: Dart/Assignments/mod1assignment1.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Dart/Assignments/mod1assignment1.dart b/Dart/Assignments/mod1assignment1.dart
+deleted file mode 100644
+--- a/Dart/Assignments/mod1assignment1.dart	(revision 66730d25499396687cdb62419e8484f480d3d581)
++++ /dev/null	(revision 66730d25499396687cdb62419e8484f480d3d581)
+@@ -1,43 +0,0 @@
+-//Starting with the main function which is responsible for all kinds of execution.
+-
+-main() {
+-
+-  // List is defined as String.
+-
+-  List<String> phoneNumbers = [
+-    "+88",
+-    "01768131685",
+-    "01768171985",
+-    "01768111286",
+-    "01768131685"
+-  ];
+-
+-  //holding the first list item "+88" in the String named countryCode
+-
+-  String countryCode = phoneNumbers[0];
+-
+-  //listing all the number with the country code and holding them in a String named numberWithCode
+-  //at first the String named countryCode
+-  //then a line break
+-  //then add the numbers by selecting each (ex:phoneNumbers[1]) from the phoneNumbers list
+-
+-  List<String> numberWithCode= [
+-    countryCode +""+ phoneNumbers[1],
+-    countryCode +""+ phoneNumbers[2],
+-    countryCode +""+ phoneNumbers[3],
+-    countryCode +""+ phoneNumbers[4],
+-  ];
+-
+-  //for printing each number in a separate line
+-  //holding the String numberWithCode in the String named numberWithCodeLineBreak
+-  //then added line breaks using the .join
+-
+-  String numberWithCodeLineBreak = numberWithCode.join('\n');
+-
+-  //printing the full number with a title named Full Numbers
+-  //then a line break
+-  //then the String named numberWithCodeLineBreak
+-
+-  print("Full Numbers" +'\n'+ numberWithCodeLineBreak);
+-
+-}
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1681565259252)
++++ b/.idea/vcs.xml	(date 1681565259252)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Practice-Dart_MOD1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Practice-Dart_MOD1.iml b/Practice-Dart_MOD1.iml
+new file mode 100644
+--- /dev/null	(date 1681565007188)
++++ b/Practice-Dart_MOD1.iml	(date 1681565007188)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Dart SDK" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1681565187847)
++++ b/.idea/.gitignore	(date 1681565187847)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1681565007207)
++++ b/.idea/misc.xml	(date 1681565007207)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Dart_SDK.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Dart_SDK.xml b/.idea/libraries/Dart_SDK.xml
+new file mode 100644
+--- /dev/null	(date 1681565007197)
++++ b/.idea/libraries/Dart_SDK.xml	(date 1681565007197)
+@@ -0,0 +1,27 @@
++<component name="libraryTable">
++  <library name="Dart SDK">
++    <CLASSES>
++      <root url="file:///usr/local/opt/dart/libexec/lib/async" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/cli" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/collection" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/convert" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/core" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/developer" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/ffi" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/html" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/indexed_db" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/io" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/isolate" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/js" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/js_util" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/math" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/mirrors" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/svg" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/typed_data" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/web_audio" />
++      <root url="file:///usr/local/opt/dart/libexec/lib/web_gl" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
