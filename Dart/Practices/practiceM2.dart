@@ -67,8 +67,44 @@ print(per);
   else if(marks<33 && marks>=0){
     print("F");
   }
-
  */
+
+///switch case statements
+ /*
+  var marks=33;
+
+  switch(marks){
+    case 80:
+      print("A+");
+      break;
+    case 70:
+      print("A");
+      break;
+    case 60:
+      print("A-");
+      break;
+    case 50:
+      print("B");
+      break;
+    case 40:
+      print("C");
+      break;
+    case 33:
+      print("D");
+      break;
+    case 0:
+      print("F");
+      break;
+
+
+      default:
+        print("invalid mark");
+
+
+  }
+  */
+
+///loop
 
 
 
