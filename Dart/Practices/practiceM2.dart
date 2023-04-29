@@ -106,6 +106,14 @@ print(per);
 
 ///loop
 
+  for(var i=0;i<100;i=i+6)
+    print("dart " +i.toString());
+  {
+
+
+
+
+  }
 
 
 
