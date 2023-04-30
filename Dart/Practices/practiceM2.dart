@@ -106,18 +106,24 @@ print(per);
 
 ///loop
 
-  for(var i=0;i<100;i=i+6)
-    print("dart " +i.toString());
+  for(var i=0;i<12;i=i+6)
   {
+    print("dart " +i.toString());
+  }
 
+///for in loop
 
+  var genomList=['A','B','C','D','F','G','H'];
+
+  print(genomList);
+  print(" ");
+
+  for(var oneGenomList in genomList){
+
+    print(oneGenomList);
 
 
   }
-
-
-
-
 
 
 
