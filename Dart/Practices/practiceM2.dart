@@ -2,6 +2,7 @@
 void main() {
 
   ///set
+
   print("#SET PROP");
 
 var set=<int> {52,894};
@@ -155,14 +156,44 @@ print(" ");
 
   print("#FOR IN LOOF OVER SET & JSON ");
 
-  var enomList={'A','B','C','D','F','G','H'};
+  var enomList={'e','m','l','k','u','i','p'};
 
   print(enomList);
 
   print(" ");
 
-  for(var oneEnomList in genomList) {
+  for(var oneEnomList in enomList) {
     print(oneEnomList);
+  }
+  /// for in loop over json
+
+  print("#FOR IN LOOF OVER JSON ");
+
+  var jsonList= [
+
+    {'name':'cola','quan':'52'},
+    {'name':'pepsi','quan':'59'},
+    {'name':'sprite','quan':'72'},
+    {'name':'fanta','quan':'5'},
+    {'name':'merinda','quan':'14'},
+
+  ];
+
+  print(jsonList);
+  //print(jsonList['name']); invalid
+
+  print(" ");
+
+  for(var oneJsonList in jsonList) {
+    //print(oneJsonList['name']);
+    //print(oneJsonList['quan']);
+    print(" ");
+
+
+    var pItem="drink name is ${oneJsonList['name']}, drink quantity is ${oneJsonList['quan']}}";
+    //var pItem="drink quantity is ${oneJsonList['quan']}";
+    print(pItem);
+
   }
 
 
