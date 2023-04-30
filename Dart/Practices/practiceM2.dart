@@ -2,11 +2,12 @@
 void main() {
 
   ///set
+  print("#SET PROP");
 
 var set=<int> {52,894};
 set.add(5);
 
-print("#SET PROP");
+
 print(set.elementAt(0));
 print(set.last);
 print(set.isEmpty);
@@ -46,11 +47,13 @@ pper.addAll({'chop': 'cow', 'fog' : 'dog'});
 //pper.clear();
   pper.remove('fog');
 print(pper);
-  print(" ");
+
+print(" ");
 
 ///if , if else, if else if
 
   print("#IF, IF ELSE & IF ELSE IF");
+
   var marks=32;
   if(marks>=80){
     print("A+");
@@ -79,9 +82,11 @@ print(pper);
   else if(marks<33 && marks>=0){
     print("F");
   }
+
   print(" ");
 
 ///switch case statements
+
   print("#SWITCH CASE");
 
   var Smarks=33;
@@ -115,22 +120,28 @@ print(pper);
 
 
   }
+
   print(" ");
 
 ///loop
+
   print("#LOOP");
 
   for(var i=0;i<12;i=i+6)
   {
     print("dart " +i.toString());
   }
+
   print(" ");
-///for in loop
+
+  ///for in loop
+
   print("#FOR IN LOOP");
 
   var genomList=['A','B','C','D','F','G','H'];
 
   print(genomList);
+
   print(" ");
 
   for(var oneGenomList in genomList){
@@ -141,11 +152,13 @@ print(pper);
   }
   print(" ");
   /// for in loop over set
+
   print("#FOR IN LOOF OVER SET & JSON ");
 
   var enomList={'A','B','C','D','F','G','H'};
 
   print(enomList);
+
   print(" ");
 
   for(var oneEnomList in genomList) {
