@@ -1,6 +1,6 @@
-import 'dart:io';
+///import 'dart:io';
 void main() {
-
+/*
   print('suns');
   dynamic sunset = stdin.readLineSync();
   print('sunr');
@@ -9,19 +9,21 @@ void main() {
   print(addition);
 
 
-  // Prompt the user to enter some input
-  //print('Enter your name:');
+  Prompt the user to enter some input
+ print('Enter your name:');
 
-  // Read the user's input from the console
-  // var name = stdin.readLineSync();
+  Read the user's input from the console
+  var name = stdin.readLineSync();
 
-  // Print out a message using the user's input
-  // print('Hello, $name!');
-
-
+  Print out a message using the user's input
+   print('Hello, $name!');
 
 
-/*
+ */
+
+
+
+
 ///4 - Dart List & List Properties
 
 
@@ -37,19 +39,20 @@ void main() {
     'Sylhet',
     'Rangpur'
   ];
- var res = bdDiv.length;
- // var res = bdDiv.last;
-  //var res = bdDiv.;
+
+  var res = bdDiv;
 
 
 
-  //print(bdDiv);
- // print(bdDiv[1]);
-  //print('${bdDiv[1]} and ${bdDiv[2]}');
-  //print(res);
+ print(bdDiv);
+  print(bdDiv.last);
+  print(bdDiv.length);
+ print(bdDiv[1]);
+ print('${bdDiv[1]} and ${bdDiv[2]}');
+  print(res);
 
 ///5 - Dart Map
-/*
+
   var wCouCap =
   {
     'Bandladesh' : 'Dhaka',
@@ -60,7 +63,7 @@ void main() {
   print(wCouCap);
   print(wCouCap['Japan']);
 
- */
+
 
 ///6 -
 
@@ -110,7 +113,7 @@ num.removeAt(2);
 
 
 
-print(num);*/
+print(num);
 //Starting with the main function which is responsible for all kinds of execution.
 
 }
