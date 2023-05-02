@@ -1,4 +1,12 @@
 
+///function
+myNumber(){
+String cCodeS= '+880';
+int num=19579725364;
+print(cCodeS + num.toString());
+}
+
+
 void main() {
 
   ///set
@@ -199,18 +207,34 @@ print(" ");
 
 ///while & do while loop
 
-  print("#WHILE AND DO WHILE LOOP");
+  print("#WHILE LOOP");
 
   var p=0;
-  while(p<100){
+  while(p<10){
     print(p);
     p=p+1;
   }
-///31-34
+  print(" ");
 
+print("#DO WHILE LOOP");
 
+var r=0;
+do{
+  print(r);
+  r=r+1;
+}while(r<6);
 
+///function {over void main}
+  print(" ");
+  print("#FUNCTION CALL");
 
+  myNumber();
+
+///Passing Argument Inside Function
+  print(" ");
+  print("#PASSING Argument Inside Function");
+
+///33-34
 
 
 
