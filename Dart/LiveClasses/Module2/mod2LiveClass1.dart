@@ -1,6 +1,6 @@
 void main(){
 
-  ///SET
+  ///#SET
 
   Set<String> students = {
     'John',
@@ -11,12 +11,12 @@ void main(){
   };
   students.add('Miok');
   students.remove('Tom');
-  students.addAll({'elements', 'hkjk'});//set
-  students.addAll(['elemlents', 'hkjk']); //list
+  students.addAll({'Mask', 'Steve'});//set
+  students.addAll(['Elon', 'Mask']); //list
   print(students);
   print(students.elementAt(4));
 
-  ///MAP
+  ///#MAP
 
   Map<String, String> user ={
     'firstName' : 'Tim',
@@ -27,22 +27,35 @@ void main(){
   print(user['firstName']);
 ///
 
-  Map<int, String> stus= {
+  Map<int, String> newStudents= {
     1 : 'pius',
     2 : 'liom',
     3 : 'gukm'
   };
-  print(stus);
-  print(stus[2]);
+  print(newStudents);
+  print(newStudents[2]);
 
 ///
 
-  Map<String, dynamic> pInfo = {
+  Map<String, dynamic> personInfo = {
     'name' : "lio",
     'age' : 65,
     'money' : 5476.5646
   };
-  pInfo['car'] = "bmw";
-  print(pInfo);
+  personInfo['car'] = "bmw";
+  print(personInfo);
+  personInfo.addAll({'ggg':'jjj', 'ghgg':'jutree'});
+  print(personInfo);
+
+
+  ///#Control Flow
+
+
+
+
+
+
+
+
 
 }
