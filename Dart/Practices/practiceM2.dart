@@ -195,11 +195,18 @@ print(" ");
     print(pItem);
 
   }
+  print(" ");
 
+///while & do while loop
 
+  print("#WHILE AND DO WHILE LOOP");
 
-///###### next preRecClass 31-34
-
+  var p=0;
+  while(p<100){
+    print(p);
+    p=p+1;
+  }
+///31-34
 
 
 
