@@ -48,11 +48,22 @@ void main(){
   print(personInfo);
 
 
-  ///#Control Flow
+  ///#Control Flow Statement
+  ///if else
 
-
-
-
+  int myAge = 19;
+  if (myAge > 25) {
+    print('Hired');
+  }
+  else if (myAge > 18) {
+    print('waiting');
+  }
+  else if (myAge > 21) {
+    print('send to trainer');
+  }
+  else {
+  print('Not Hired');
+  }
 
 
 
