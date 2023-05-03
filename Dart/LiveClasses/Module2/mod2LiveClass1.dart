@@ -9,28 +9,29 @@ void main(){
     'Duke',
     'John', //duplicate value cant be printed in set but list can do that
   };
-  students.add('Miok');
+  students.add('Miyoko');
   students.remove('Tom');
-  students.addAll({'Mask', 'Steve'});//set
-  students.addAll(['Elon', 'Mask']); //list
+  students.addAll({'Mask', 'Steve'}); //direct set type {preferable}
+  students.addAll(['Elon', 'Mask']); //list type but compiler will compile it into set in the bsck
   print(students);
   print(students.elementAt(4));
 
   ///#MAP
 
   Map<String, String> user ={
-    'firstName' : 'Tim',
-    'midName' : 'Bim',
-    'lastName' : 'Shim',
+    'firstName' : 'Ji',
+    'midName' : 'Yun',
+    'lastName' : 'Tak',
   };
   print(user);
   print(user['firstName']);
+
 ///
 
   Map<int, String> newStudents= {
-    1 : 'pius',
-    2 : 'liom',
-    3 : 'gukm'
+    1 : 'Pius',
+    2 : 'Leon',
+    3 : 'Quim'
   };
   print(newStudents);
   print(newStudents[2]);
@@ -39,27 +40,28 @@ void main(){
 
   Map<String, dynamic> personInfo = {
     'name' : "lio",
-    'age' : 65,
-    'money' : 5476.5646
+    'age' : 35,
+    'money' : 544476.5646
   };
-  personInfo['car'] = "bmw";
+  personInfo['car'] = "BMW";
   print(personInfo);
-  personInfo.addAll({'ggg':'jjj', 'ghgg':'jutree'});
+  personInfo.addAll({'occupation':'Programmer', 'designation':'Junior UI Designer'});
   print(personInfo);
 
 
   ///#Control Flow Statement
-  ///if else
+  ///#IF, ELSE & ELSE IF
 
-  int myAge = 19;
-  if (myAge > 25) {
-    print('Hired');
+  int candidatesAge = 19;
+
+  if (candidatesAge > 22) {
+    print('He is hired');
   }
-  else if (myAge > 18) {
-    print('waiting');
+  else if (candidatesAge > 20) {
+    print('Put him in the waiting list');
   }
-  else if (myAge > 21) {
-    print('send to trainer');
+  else if (candidatesAge > 18) {
+    print('Hired as a intern for junior designer post');
   }
   else {
   print('Not Hired');
