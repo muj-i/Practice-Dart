@@ -64,7 +64,7 @@ void main(){
     print('Hired as a intern for junior designer post');
   }
   else {
-  print('Not Hired');
+  print('Not Qualified');
   }
 
 }
