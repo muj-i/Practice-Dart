@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f375c5c1-e2d5-42d7-be8c-275c6bee98eb" name="Changes" comment="Operator and List" />
+    <list default="true" id="f375c5c1-e2d5-42d7-be8c-275c6bee98eb" name="Changes" comment="p">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_4_23_7_34_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_4_23_7_34_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,8 +44,8 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/muj/Documents/Ostad/Practice-Dart_and_Flutter/Dart/Assignments&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/muj/Documents/OstadP/Practice-Dart_and_Flutter&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -42,11 +54,12 @@
       <recent name="$PROJECT_DIR$/Dart/Assignments" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dart/PracticeM1" />
       <recent name="$PROJECT_DIR$/Dart" />
       <recent name="$PROJECT_DIR$/Dart/LiveClasses/Module1" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.hello.dart">
+  <component name="RunManager" selected="Dart Command Line App.prac.dart">
     <configuration name="hello.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/hello.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart" />
@@ -62,30 +75,38 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveClasses/Module1" />
       <method v="2" />
     </configuration>
-    <configuration name="mod1LiveClass3.dart (1)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/LiveClasses/Module1/mod1LiveClass3.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveClasses/Module1" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mod1LiveClass3.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/LiveClasses/Module1/mod1LiveClass1.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveClasses" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mod2LiveClass1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+    <configuration name="mod2LiveClass1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/LiveClasses/Module2/mod2LiveClass1.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveClasses/Module2" />
       <method v="2" />
     </configuration>
+    <configuration name="prac.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/Practices/prac.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Practices" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practiceM2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/Practices/practiceM2.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Practices" />
+      <method v="2" />
+    </configuration>
     <configuration name="practice.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/practice.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/Dart/Practices/practiceM1.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Dart Command Line App.hello.dart" />
+      <item itemvalue="Dart Command Line App.mod1Assignment1.dart" />
+      <item itemvalue="Dart Command Line App.mod1LiveClass1.dart" />
+      <item itemvalue="Dart Command Line App.mod2LiveClass1.dart" />
+      <item itemvalue="Dart Command Line App.practice.dart" />
+      <item itemvalue="Dart Command Line App.practiceM2.dart" />
+      <item itemvalue="Dart Command Line App.prac.dart" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.mod1LiveClass3.dart (1)" />
-        <item itemvalue="Dart Command Line App.mod2LiveClass1.dart" />
+        <item itemvalue="Dart Command Line App.prac.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -97,181 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681565181683</updated>
-    </task>
-    <task id="LOCAL-00001" summary="The program prints all the listed numbers as we are told.">
-      <created>1681565621157</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681565621157</updated>
-    </task>
-    <task id="LOCAL-00002" summary="The program prints all the listed numbers as we are told.">
-      <created>1681565671257</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681565671257</updated>
-    </task>
-    <task id="LOCAL-00003" summary="The program prints all the listed numbers as we are told.">
-      <created>1681565833096</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681565833096</updated>
-    </task>
-    <task id="LOCAL-00004" summary="The program prints all the listed numbers as we are told.">
-      <created>1681566140736</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681566140736</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Basic of Dart">
-      <created>1681566260207</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681566260207</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Variables and Data types">
-      <created>1681566431817</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681566431817</updated>
-    </task>
-    <task id="LOCAL-00007" summary="The program prints all the listed numbers as we are told.">
-      <created>1681576882625</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681576882625</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Operators">
-      <created>1681662348806</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681662348806</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Operators">
-      <created>1681662988531</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681662988531</updated>
-    </task>
-    <task id="LOCAL-00010" summary="experiments">
-      <created>1681715857263</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1681715857263</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Directory Created">
-      <created>1681716922057</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681716922057</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Basi">
-      <created>1681717031025</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1681717031025</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Basic of Dart">
-      <created>1681717054095</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1681717054095</updated>
-    </task>
-    <task id="LOCAL-00014" summary="variables and Data types">
-      <created>1681717106301</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681717106301</updated>
-    </task>
-    <task id="LOCAL-00015" summary="mod2LClass1">
-      <created>1681717335482</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1681717335482</updated>
-    </task>
-    <task id="LOCAL-00016" summary="half">
-      <created>1681723734365</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1681723734365</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Practice">
-      <created>1681723770846</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1681723770846</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Practice">
-      <created>1681723852880</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1681723852880</updated>
-    </task>
-    <task id="LOCAL-00019" summary="////////////////////////////">
-      <created>1681724484075</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1681724484075</updated>
-    </task>
-    <task id="LOCAL-00020" summary="////////////////////////////">
-      <created>1681725386420</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1681725386420</updated>
-    </task>
-    <task id="LOCAL-00021" summary="pracc mid">
-      <created>1681743598077</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1681743598077</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Operator and List">
-      <created>1681745827888</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1681745827888</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Operator and List">
-      <created>1681746941143</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1681746941143</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Operator and List">
-      <created>1681748346277</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1681748346277</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Assignment1">
-      <created>1681754554362</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1681754554363</updated>
     </task>
     <task id="LOCAL-00026" summary="LiveTest1">
       <created>1681754713974</created>
@@ -315,7 +161,308 @@
       <option name="project" value="LOCAL" />
       <updated>1681758141140</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="set">
+      <created>1681897507252</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897507252</updated>
+    </task>
+    <task id="LOCAL-00033" summary=".idea">
+      <created>1681897571190</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897571190</updated>
+    </task>
+    <task id="LOCAL-00034" summary="pm1">
+      <created>1681898739100</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681898739100</updated>
+    </task>
+    <task id="LOCAL-00035" summary="pm2">
+      <created>1681898755188</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681898755188</updated>
+    </task>
+    <task id="LOCAL-00036" summary="pm2">
+      <created>1681899367527</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681899367527</updated>
+    </task>
+    <task id="LOCAL-00037" summary="pm2">
+      <created>1681899391289</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681899391289</updated>
+    </task>
+    <task id="LOCAL-00038" summary="helloworld">
+      <created>1682330055459</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682330055459</updated>
+    </task>
+    <task id="LOCAL-00039" summary="helloworld">
+      <created>1682330359159</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682330359159</updated>
+    </task>
+    <task id="LOCAL-00040" summary="pm2">
+      <created>1682623572822</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682623572822</updated>
+    </task>
+    <task id="LOCAL-00041" summary="pm2">
+      <created>1682623660525</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1682623660525</updated>
+    </task>
+    <task id="LOCAL-00042" summary="pm2">
+      <created>1682779694818</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1682779694818</updated>
+    </task>
+    <task id="LOCAL-00043" summary="pm2">
+      <created>1682780373417</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780373417</updated>
+    </task>
+    <task id="LOCAL-00044" summary="pm2">
+      <created>1682797310774</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682797310774</updated>
+    </task>
+    <task id="LOCAL-00045" summary="pm2">
+      <created>1682880867597</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682880867597</updated>
+    </task>
+    <task id="LOCAL-00046" summary="pm2">
+      <created>1682881718884</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1682881718884</updated>
+    </task>
+    <task id="LOCAL-00047" summary="pm2">
+      <created>1682881837145</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1682881837145</updated>
+    </task>
+    <task id="LOCAL-00048" summary="pm2">
+      <created>1682883504839</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1682883504839</updated>
+    </task>
+    <task id="LOCAL-00049" summary="pm1">
+      <created>1682883733248</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1682883733248</updated>
+    </task>
+    <task id="LOCAL-00050" summary="pm2">
+      <created>1682883782819</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1682883782819</updated>
+    </task>
+    <task id="LOCAL-00051" summary="pm2">
+      <created>1683042288010</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1683042288010</updated>
+    </task>
+    <task id="LOCAL-00052" summary="mod2lc1">
+      <created>1683043915785</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683043915785</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Assignment1">
+      <created>1683046076355</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1683046076356</updated>
+    </task>
+    <task id="LOCAL-00054" summary="mod2LiveClass1">
+      <created>1683047437965</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1683047437965</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Set, Map , Control Flow">
+      <created>1683047888277</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1683047888277</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Set, Map , if, if else &amp; else">
+      <created>1683049368896</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1683049368896</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Set, Map , if, if else &amp; else">
+      <created>1683049530888</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1683049530888</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Set, Map , if, if else &amp; else">
+      <created>1683112476964</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1683112476965</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Update Set, Map , if, if else &amp; else">
+      <created>1683112541541</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1683112541541</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Update Set, Map , if, if else &amp; else">
+      <created>1683112593147</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1683112593147</updated>
+    </task>
+    <task id="LOCAL-00061" summary="mod2lc2">
+      <created>1683207750922</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1683207750922</updated>
+    </task>
+    <task id="LOCAL-00062" summary="practiceControlFlowStatements">
+      <created>1683208654033</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1683208654033</updated>
+    </task>
+    <task id="LOCAL-00063" summary="practiceControlFlowStatements">
+      <created>1683208977790</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1683208977790</updated>
+    </task>
+    <task id="LOCAL-00064" summary="basic of dart">
+      <created>1683222896416</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683222896417</updated>
+    </task>
+    <task id="LOCAL-00065" summary="basic of dart">
+      <created>1683223044636</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1683223044636</updated>
+    </task>
+    <task id="LOCAL-00066" summary="m2l2">
+      <created>1683225151832</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1683225151833</updated>
+    </task>
+    <task id="LOCAL-00067" summary="loop">
+      <created>1683225197862</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1683225197862</updated>
+    </task>
+    <task id="LOCAL-00068" summary="loop">
+      <created>1683279501643</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1683279501643</updated>
+    </task>
+    <task id="LOCAL-00069" summary="mod2LC2">
+      <created>1683281495714</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1683281495714</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update controlFlowStatements">
+      <created>1683281640355</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1683281640355</updated>
+    </task>
+    <task id="LOCAL-00071" summary="update loop">
+      <created>1683281665683</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1683281665684</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Case">
+      <created>1683281830747</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1683281830747</updated>
+    </task>
+    <task id="LOCAL-00073" summary="loop">
+      <created>1683282617027</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1683282617027</updated>
+    </task>
+    <task id="LOCAL-00074" summary="p">
+      <created>1683292465371</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1683292465372</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,25 +477,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variables and Data types" />
-    <MESSAGE value="The program prints all the listed numbers as we are told." />
-    <MESSAGE value="Operators" />
-    <MESSAGE value="experiments" />
-    <MESSAGE value="Directory Created" />
-    <MESSAGE value="Basi" />
-    <MESSAGE value="Basic of Dart" />
-    <MESSAGE value="variables and Data types" />
-    <MESSAGE value="mod2LClass1" />
-    <MESSAGE value="half" />
-    <MESSAGE value="Practice" />
-    <MESSAGE value="////////////////////////////" />
-    <MESSAGE value="pracc mid" />
-    <MESSAGE value="Assignment1" />
     <MESSAGE value="LiveTest1" />
     <MESSAGE value="mod1LiveTest1" />
     <MESSAGE value="mod1Assignment1" />
     <MESSAGE value="Operator and List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operator and List" />
+    <MESSAGE value="set" />
+    <MESSAGE value=".idea" />
+    <MESSAGE value="helloworld" />
+    <MESSAGE value="pm1" />
+    <MESSAGE value="pm2" />
+    <MESSAGE value="mod2lc1" />
+    <MESSAGE value="Assignment1" />
+    <MESSAGE value="mod2LiveClass1" />
+    <MESSAGE value="Set, Map , Control Flow" />
+    <MESSAGE value="Set, Map , if, if else &amp; else" />
+    <MESSAGE value="Update Set, Map , if, if else &amp; else" />
+    <MESSAGE value="mod2lc2" />
+    <MESSAGE value="practiceControlFlowStatements" />
+    <MESSAGE value="basic of dart" />
+    <MESSAGE value="m2l2" />
+    <MESSAGE value="mod2LC2" />
+    <MESSAGE value="update controlFlowStatements" />
+    <MESSAGE value="update loop" />
+    <MESSAGE value="Case" />
+    <MESSAGE value="loop" />
+    <MESSAGE value="p" />
+    <option name="LAST_COMMIT_MESSAGE" value="p" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
