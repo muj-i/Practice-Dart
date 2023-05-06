@@ -1,6 +1,6 @@
 void main(){
 
-jhhjfhhf
+print ('jhhjfhhf');
   
 
 
