@@ -1,5 +1,6 @@
 void main(){
-
+///
+  /*
   for (int A = 2; A <= 5; A =  A + 1)
   {
     print('$A Meaw!');
@@ -17,6 +18,7 @@ void main(){
   {
     print('+880${num[serial]}');
   }
+   */
   /*
   print(' ');
   ///for in loop
@@ -27,6 +29,54 @@ void main(){
   }
 
    */
+List<int> nums = [1,2,3,4,5,6];
+List<int> evnums = [];
+List<int> odnums = [];
+
+for(int i = 0; i < nums.length; i++ ){
+  if(nums[i] % 2 == 0) {
+    evnums.add(nums[i]);
+  }
+  else {
+    odnums.add(nums[i]);
+  }
+}
+print('even $evnums');
+print('odd $odnums');
+
+
+
+
+
+
+
+
+
+
+
+
+  ///
+  /*
+  for(int i = 10; i%2==0;i = i+0 )
+
+  {
+    print(i);
+  }
+
+
+   */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
