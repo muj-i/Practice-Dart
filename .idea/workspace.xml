@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f375c5c1-e2d5-42d7-be8c-275c6bee98eb" name="Changes" comment="p">
+    <list default="true" id="f375c5c1-e2d5-42d7-be8c-275c6bee98eb" name="Changes" comment="loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Practices/prac.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Practices/prac.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dart/Practices/loop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Practices/loop.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/Dart/LiveClasses/Module1" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.prac.dart">
+  <component name="RunManager">
     <configuration name="hello.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/hello.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart" />
@@ -117,20 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681565181683</updated>
-    </task>
-    <task id="LOCAL-00027" summary="mod1LiveTest1">
-      <created>1681755647134</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1681755647134</updated>
-    </task>
-    <task id="LOCAL-00028" summary="mod1LiveTest1">
-      <created>1681755928839</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1681755928839</updated>
     </task>
     <task id="LOCAL-00029" summary="mod1Assignment1">
       <created>1681756026956</created>
@@ -461,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683366569121</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="p">
+      <created>1683366659119</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1683366659119</updated>
+    </task>
+    <task id="LOCAL-00077" summary="loop">
+      <created>1683392109815</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1683392109815</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,9 +499,30 @@
     <MESSAGE value="update controlFlowStatements" />
     <MESSAGE value="update loop" />
     <MESSAGE value="Case" />
-    <MESSAGE value="loop" />
     <MESSAGE value="p" />
-    <option name="LAST_COMMIT_MESSAGE" value="p" />
+    <MESSAGE value="loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="loop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/Dart/Practices/loop.dart</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/Dart/Practices/loop.dart</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/Dart/Practices/loop.dart</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

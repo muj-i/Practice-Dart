@@ -44,14 +44,14 @@ for(int i = 0; i < nums.length; i++ ){
 print('even $evnums');
 print('odd $odnums');
 
+List<String> phnnum = [
+  '+88',
+  '02146616',
+  '491619494'
+];
 
-
-
-
-
-
-
-
+  for (int p = 1; p < phnnum.length; p++);
+  print("${phnnum[0] + phnnum[1]}");
 
 
 
