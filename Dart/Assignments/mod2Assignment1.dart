@@ -3,8 +3,7 @@
 ///and returns their corresponding grade
 ///based on the provided grading scale
 
-studentGrade(String name , int score)
-{
+studentGrade(String name , int score) {
   if (score >= 90 && score <= 100) {
     return 'A';
   }
