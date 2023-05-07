@@ -4,29 +4,29 @@
 ///based on the provided grading scale
 
 studentGrade(String name , int score) {
-  if (score >= 90 && score <= 100) {
+  if (score < 0 || score > 100) {
+    return 'Invalid Grade';
+  }
+  else if (score >= 90) {
     return 'A';
   }
-  else if (score >= 80 && score <= 89) {
+  else if (score >= 80) {
     return 'B';
   }
-  else if (score >= 70 && score <= 79) {
+  else if (score >= 70) {
     return('C');
   }
-  else if (score >= 60 && score <= 69) {
+  else if (score >= 60) {
     return('D');
   }
-  else if (score >= 0 && score <= 59) {
-    return('F');
-  }
   else {
-    return('Invalid Grade');
+    return('F');
   }
 }
 
 void main() {
   String studentName = "Mujahedul Islam";
-  int testScore = 79;
+  int testScore =66;
 
   String grade = studentGrade(studentName, testScore);
 
