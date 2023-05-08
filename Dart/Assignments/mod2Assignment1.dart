@@ -3,7 +3,7 @@
 ///and returns their corresponding grade
 ///based on the provided grading scale
 
-studentGrade(int score) {
+studentGrade(String name, int score) {
   if (score < 0 || score > 100) {
     return 'Invalid Grade';
   }
@@ -28,7 +28,7 @@ void main() {
   String studentName = "Mujahedul Islam";
   int testScore =66;
 
-  String grade = studentGrade(testScore);
+  String grade = studentGrade(studentName, testScore);
 
   print("$studentName's grade: $grade");
 
