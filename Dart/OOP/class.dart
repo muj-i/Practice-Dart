@@ -1,6 +1,8 @@
-// datatype / class
-class Mobile {
-  late int year;
-  late String model;
 
+class Mobile {
+  late String model;
+  late String versions;
+  late int launch;
+  late String platformOs;
+  late String platformChipset;
 }
