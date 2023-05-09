@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="fix the understanding problem">
-      <change afterPath="$PROJECT_DIR$/Dart/LiveClasses/Module3/mod3LC1.dart" afterDir="false" />
+    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="3654+&#10;5464">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Practices/switchCase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Practices/switchCase.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683630242226</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="m3lc1">
+      <created>1683634849055</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683634849055</updated>
+    </task>
+    <task id="LOCAL-00016" summary="m3lc1">
+      <created>1683634903460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683634903460</updated>
+    </task>
+    <task id="LOCAL-00017" summary="m3lc1">
+      <created>1683635071477</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683635071477</updated>
+    </task>
+    <task id="LOCAL-00018" summary="3654+&#10;5464">
+      <created>1683635136097</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683635136097</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +237,9 @@
     <MESSAGE value="m2lc3" />
     <MESSAGE value="sc6" />
     <MESSAGE value="fix the understanding problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the understanding problem" />
+    <MESSAGE value="m3lc1" />
+    <MESSAGE value="3654+&#10;5464" />
+    <option name="LAST_COMMIT_MESSAGE" value="3654+&#10;5464" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
