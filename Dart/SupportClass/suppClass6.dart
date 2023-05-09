@@ -8,12 +8,9 @@ List<int> getEvNums(List<int> nums){
   }
   return evNums;
 }
-
-void main(){
-  List<int> nums = [2,3,6,9,4];
+void main() {
+  List<int> nums = [2, 3, 6, 9, 4];
   List<int> evenNums = getEvNums(nums);
 
   print(evenNums);
-
-
 }
