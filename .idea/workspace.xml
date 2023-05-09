@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="class">
+    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="opp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,12 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.mod2Assignment1.dart">
+  <component name="RunManager" selected="Dart Command Line App.dart-oop.dart">
+    <configuration name="dart-oop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/OOP/dart-oop.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/OOP" />
+      <method v="2" />
+    </configuration>
     <configuration name="mod2Assignment1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/Assignments/mod2Assignment1.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Assignments" />
@@ -58,11 +63,6 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Practices" />
       <method v="2" />
     </configuration>
-    <configuration name="suppClass5.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/SupportClass/suppClass5.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/SupportClass" />
-      <method v="2" />
-    </configuration>
     <configuration name="suppClass6.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/SupportClass/suppClass6.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/SupportClass" />
@@ -70,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.dart-oop.dart" />
         <item itemvalue="Dart Command Line App.mod2Assignment1.dart" />
         <item itemvalue="Dart Command Line App.new.dart" />
         <item itemvalue="Dart Command Line App.suppClass6.dart" />
         <item itemvalue="Dart Command Line App.mod2LiveTest1.dart" />
-        <item itemvalue="Dart Command Line App.suppClass5.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683656833769</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="class/oop">
+      <created>1683656983039</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683656983039</updated>
+    </task>
+    <task id="LOCAL-00027" summary="class">
+      <created>1683657602473</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683657602473</updated>
+    </task>
+    <task id="LOCAL-00028" summary="opp">
+      <created>1683658269584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683658269584</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,8 +313,10 @@
     <MESSAGE value="sc6" />
     <MESSAGE value="oop/class" />
     <MESSAGE value="oop" />
+    <MESSAGE value="class/oop" />
     <MESSAGE value="class" />
-    <option name="LAST_COMMIT_MESSAGE" value="class" />
+    <MESSAGE value="opp" />
+    <option name="LAST_COMMIT_MESSAGE" value="opp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
