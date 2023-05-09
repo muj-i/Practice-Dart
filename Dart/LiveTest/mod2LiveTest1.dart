@@ -16,6 +16,7 @@ void main()
   List<int> userInput = [2, 5, 8, 11, 13, 18, 21, 24];
   List<int> oddNumbers = getOddNumbers(userInput);
 
-  print(oddNumbers);
+  print('Input List: $userInput');
+  print('Odd Numbers: $oddNumbers');
 
 }
