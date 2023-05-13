@@ -27,8 +27,8 @@
 
   //for printing each number in a separate line
 
-  String numberWithCodeLineBreak = numberWithCode.join('\n');
+  //String numberWithCodeLineBreak = numberWithCode.join('\n');
 
-  print(numberWithCodeLineBreak);
+  print(numberWithCode.join('\n'));
 
 }
