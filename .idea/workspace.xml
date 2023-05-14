@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="sc8">
-      <change afterPath="$PROJECT_DIR$/Dart/Assignments/mod3Assignment.dart" afterDir="false" />
+    <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="33">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod2Assignment1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod2Assignment.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod3Assignment.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod3Assignment.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +43,20 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.dart-oop.dart">
+  <component name="RunManager">
     <configuration name="dart-oop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/OOP/dart-oop.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/OOP" />
       <method v="2" />
     </configuration>
-    <configuration name="mod2Assignment.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/Assignments/mod2Assignment.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Assignments" />
+    <configuration name="lc2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/LiveClasses/Mod3/lc2.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveClasses/Mod3" />
       <method v="2" />
     </configuration>
-    <configuration name="mod2LiveTest1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/LiveTest/mod2LiveTest1.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/LiveTest" />
+    <configuration name="mod3Assignment.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/Assignments/mod3Assignment.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Assignments" />
       <method v="2" />
     </configuration>
     <configuration name="new.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
@@ -73,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.lc2.dart" />
+        <item itemvalue="Dart Command Line App.mod3Assignment.dart" />
         <item itemvalue="Dart Command Line App.dart-oop.dart" />
         <item itemvalue="Dart Command Line App.suppClass6.dart" />
         <item itemvalue="Dart Command Line App.new.dart" />
-        <item itemvalue="Dart Command Line App.mod2LiveTest1.dart" />
-        <item itemvalue="Dart Command Line App.mod2Assignment.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683997958524</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="33">
+      <created>1684052015931</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684052015931</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +340,8 @@
     <MESSAGE value="opp" />
     <MESSAGE value="loop" />
     <MESSAGE value="sc8" />
-    <option name="LAST_COMMIT_MESSAGE" value="sc8" />
+    <MESSAGE value="33" />
+    <option name="LAST_COMMIT_MESSAGE" value="33" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
