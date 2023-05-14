@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42fef9df-7b30-4093-b87c-f814fef70f74" name="Changes" comment="sc8">
-      <change afterPath="$PROJECT_DIR$/Dart/LiveClasses/Mod3/lc2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dart/Assignments/mod3Assignment.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment1.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dart/Practices/controlFlowStatements.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Practices/controlFlowStatements.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod1Assignment.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dart/Assignments/mod2Assignment1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Dart/Assignments/mod2Assignment.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +45,14 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Dart Command Line App.dart-oop.dart">
     <configuration name="dart-oop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Dart/OOP/dart-oop.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/OOP" />
       <method v="2" />
     </configuration>
-    <configuration name="mod2Assignment1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Dart/Assignments/mod2Assignment1.dart" />
+    <configuration name="mod2Assignment.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Dart/Assignments/mod2Assignment.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/Dart/Assignments" />
       <method v="2" />
     </configuration>
@@ -77,7 +77,7 @@
         <item itemvalue="Dart Command Line App.suppClass6.dart" />
         <item itemvalue="Dart Command Line App.new.dart" />
         <item itemvalue="Dart Command Line App.mod2LiveTest1.dart" />
-        <item itemvalue="Dart Command Line App.mod2Assignment1.dart" />
+        <item itemvalue="Dart Command Line App.mod2Assignment.dart" />
       </list>
     </recent_temporary>
   </component>
