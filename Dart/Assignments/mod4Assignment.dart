@@ -1,4 +1,5 @@
 abstract class Account {
+
   late String accountType;
   late int accountNumber;
   late double balance;
@@ -14,6 +15,7 @@ abstract class Account {
   }
   withdraw(double amount);
 }
+
 class SavingsAccount extends Account {
 
   late double interestRate;
@@ -28,7 +30,9 @@ class SavingsAccount extends Account {
     print('New Balance: \৳${balance.toStringAsFixed(2)}');
   }
 }
+
 class CurrentAccount extends Account {
+
   late double overdraftLimit;
 
   CurrentAccount(String accountType, int accountNumber,double balance, this.overdraftLimit) : super(accountType, accountNumber, balance);
@@ -38,13 +42,13 @@ class CurrentAccount extends Account {
     if (amount > overdraftLimit) {
       print('Insufficient funds');
     } else {
-      ///
       balance = balance - amount;
       print('Withdrawn: \৳${amount.toStringAsFixed(2)}');
       print('New Balance: \৳${balance.toStringAsFixed(2)}');
     }
   }
 }
+
 void main() {
   SavingsAccount savingsAccount = SavingsAccount('Savings Account', 1234567890, 5000.50, 0.05);
   savingsAccount.deposit(1000);
@@ -54,7 +58,7 @@ void main() {
 
   print(' ');
 
-  CurrentAccount currentAccount = new CurrentAccount('Current Account', 9876543210, 2000.75, 2000.0);
+  CurrentAccount currentAccount = CurrentAccount('Current Account', 9876543210, 2000.75, 2000.0);
   currentAccount.deposit(500);
   currentAccount.withdraw(3000);
 
