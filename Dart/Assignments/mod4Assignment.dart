@@ -50,11 +50,11 @@ class CurrentAccount extends Account {
 }
 
 void main() {
-  SavingsAccount savingsAccount = SavingsAccount('Savings Account', 1234567890, 5000.50, 0.05);
+  SavingsAccount savingsAccount = SavingsAccount('Savings Account', 1234567890, 5000.50, 0.025);
   savingsAccount.deposit(1000);
   savingsAccount.withdraw(500);
 
-  print('Savings account balance: \৳${savingsAccount.balance}');
+  print('Savings account balance: \৳${savingsAccount.balance.toStringAsFixed(2)}');
 
   print(' ');
 
@@ -62,5 +62,5 @@ void main() {
   currentAccount.deposit(500);
   currentAccount.withdraw(3000);
 
-  print('Current account balance: \৳${currentAccount.balance}');
+  print('Current account balance: \৳${currentAccount.balance.toStringAsFixed(2)}');
 }
