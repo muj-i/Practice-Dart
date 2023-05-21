@@ -24,7 +24,7 @@ class SavingsAccount extends Account {
 
   @override
   withdraw(double amount) {
-    balance -=amount;
+    balance -= amount;
     balance += balance * interestRate;
     print('Withdrawn: \৳${amount.toStringAsFixed(2)}');
     print('New Balance: \৳${balance.toStringAsFixed(2)}');
@@ -42,7 +42,7 @@ class CurrentAccount extends Account {
     if (amount > overdraftLimit) {
       print('Insufficient funds');
     } else {
-      balance = balance - amount;
+      balance -= amount;
       print('Withdrawn: \৳${amount.toStringAsFixed(2)}');
       print('New Balance: \৳${balance.toStringAsFixed(2)}');
     }
